@@ -1,0 +1,122 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  form[action="login.php"] {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow:0px 0px 253px 59px rgba(144,46,255,0.76);
+    -moz-box-shadow: 0px 0px 253px 59px rgba(144,46,255,0.76);
+    box-shadow: 0px 0px 253px 59px rgba(144,46,255,0.76);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #2196F3;
+  }
+  
+  label, input, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    background-color: #F5F5F5;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1E88E5;
+  }
+  
+  .error {
+    color: #F44336;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  a:logout.php{
+    position: relative;
+    left: 20%;
+    bottom: 30%;
+    border: #0c0808;
+    border-radius: 2%;
+  }
+
+  form[action="Cars.php"] {
+    position: absolute;
+    padding: 10px;
+    background-color: #0c0808;
+    border-radius: 5px;
+    text-align: center;
+    right: 60%;
+    bottom: 30%;
+    -webkit-box-shadow:-8px 10px 15px 9px rgba(217,24,72,0.81);
+    -moz-box-shadow: -8px 10px 15px 9px rgba(217,24,72,0.81);
+    box-shadow: -8px 10px 15px 9px rgba(217,24,72,0.81);  
+    
+    
+  }
+
+  form[action="Movies.php"]{
+    position: absolute;
+    padding: 10px;
+    background-color: #0e777e;
+    border-radius: 5px;
+    text-align: center;
+    left: 60%;
+    bottom: 30%;
+    -webkit-box-shadow:8px 10px 15px 9px rgba(159,217,24,0.95);
+    -moz-box-shadow: 8px 10px 15px 9px rgba(159,217,24,0.95);
+    box-shadow: 8px 10px 15px 9px rgba(159,217,24,0.95);
+  }
+  
+  
+  
+  form[action="Games.php"]{
+    position: absolute;
+    padding: 10px;
+    background-color: #0e777e;
+    border-radius: 5px;
+    text-align: center;
+    left: 20%;
+    top: 10%;  
+    
+  }
+
+  
